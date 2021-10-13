@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Usuario</title>
+</head>
+<body>
+    <section id="short_profile">
+        <h1 id="user_name">User name</h1>
+        <img src="/img/Frame 1.png"/>
+        <form>
+			<label class="short_profile_cell_label" for="identification">DOCUMENTO</label><br>
+            <select name="document_type" class="options">
+                <option value="CC">CC</option>
+                <option value="CE">CE</option>
+                <option value="P">P</option>
+            </select>
+			<input class="short_profile_cell_input" placeholder="" type="text" name="identification" value="XXXXXXXX"><br>
+			
+			<label class="short_profile_cell_label" for="area">ÁREA</label><br>
+			<input class="short_profile_cell_input" placeholder="" type="text" name="area" value="XX-XXXXXXXX"><br>
+			
+			<label class="short_profile_cell_label" for="role">ROL</label><br>
+			<input class="short_profile_cell_input" placeholder="" type="text" name="role" value="XXXXXXXX"><br>
+			
+			<label class="short_profile_cell_label" for="email">CORREO</label><br>
+			<input class="short_profile_cell_input" placeholder="" type="email" name="email" value="XXXXX@XXXX.XXXX"><br>
+			
+			<label class="short_profile_cell_label" for="cellphone">CELULAR</label><br>
+			<input class="short_profile_cell_input" placeholder="" type="number" name="cellphone" value="0123456789"><br>
+			
+			<label class="short_profile_cell_label" for="status">ESTADO</label><br>
+            <select name="status" class="options">
+                <option value="Activo">Activo</option>
+                <option value="Inactivo">Inactivo</option>
+            </select><br/>
+
+			<a href="index.html"><input type="button" name="edit" value="Editar"></a>
+			<a href="index.html"><input type="button" name="go-back" value="Regresar"></a>
+
+        </form><br/>
+    </section>
+        
+    <section id="extended_profile">
+        <form>
+            <label class="extended_profile_cell_label" for="contract">TIPO DE CONTRATO</label><br>
+            <select name="contract" class="options">
+                <option value="E">Empleado</option>
+                <option value="TD">Término Definido</option>
+                <option value="TI">Término Indefinido</option>
+                <option value="C">Contratista</option>
+            </select><br/>
+
+            <label class="extended_profile_cell_label" for="job-type">TIPO DE JORNADA</label><br>
+            <select name="job-type" class="options">
+                <option value="TC">Tiempo Completo</option>
+                <option value="MT">Medio Tiempo</option>
+            </select><br/>
+            
+            <label class="extended_profile_cell_label" for="start-day">FECHA DE INICIO</label><br>
+            <input class="extended_profile_cell_input" placeholder="" type="date" name="start-day" value="XX-XX-XXXX"><br>
+
+            <label class="extended_profile_cell_label" for="end-day">FECHA DE FINALIZACIÓN</label><br>
+            <input class="extended_profile_cell_input" placeholder="" type="date" name="end-day" value="XX-XX-XXXX"><br>
+
+            <label class="extended_profile_cell_label" for="frequency">PERIODICIDAD</label><br>
+            <select name="frequency" class="options">
+                <option value="M">Mensual</option>
+                <option value="Q">Quincenal</option>
+            </select><br/>
+            
+            <label class="extended_profile_cell_label" for="salary">SALARIO</label><br>
+            <input class="extended_profile_cell_input" placeholder="" type="number" name="salary" value="10"><br>
+            
+            <label class="extended_profile_cell_label" for="retirement-pay">FONDO DE PENSIONES</label><br>
+            <select name="retirement-pay" class="options">
+                <option value="Colpensiones">Colpensiones</option>
+                <option value="Porvenir">Porvenir</option>
+                <option value="Colfondos">Colfondos</option>
+                <option value="Proteccion">Protección</option>
+                <option value="Skandia">Skandia</option>
+            </select><br/>
+
+            <label class="extended_profile_cell_label" for="eps">EPS</label><br>
+            <select name="eps" class="options">
+                <option value="Savia_salud">Savia salud</option>
+                <option value="Coomeva">Coomeva</option>
+                <option value="Sura">Sura</option>
+                <option value="Nueva_eps">Nueva EPS</option>
+                <option value="Salud_total">Salud Total</option>
+
+            </select><br/>
+            
+            <label class="extended_profile_cell_label" for="arl">ARL</label><br>
+            <select name="arl" class="options">
+                <option value="Sura">Sura</option>
+            </select><br/>
+
+            <label class="extended_profile_cell_label" for="compensation-agency">CAJA DE COMPENSACIÓN</label><br>
+            <select name="compensation-agency" class="options">
+                <option value="Comfenalco">Comfenalco</option>
+                <option value="Comfama">Comfama</option>
+            </select><br/>
+
+            <label class="extended_profile_cell_label" for="payment-method">MÉTODO DE PAGO</label><br>
+        </form>
+        <img src="/img/Rectangle 1.png"/>
+        <img src="/img/Rectangle 2.png"/>
+    </section>
+</body>
+</html>
