@@ -1,3 +1,92 @@
-body {
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
+
+#short_profile {
+	position: relative;
 	background-color: lightpink;
+	padding: 0.5em 2em;
+	width: 25em;
+	height: 35em;
+	margin: 1em;
+	border-radius: 25px 25px 25px 25px;
+}
+
+#short_profile div {
+	text-align: center;
+}
+
+#short_profile form {
+	width: 100%;
+}
+
+#short_profile label {
+	text-align: left;
+	line-height: 2em;
+	padding: 1em;
+	font-weight: bold;
+	font-size: large;
+}
+
+.information input {
+	position: absolute;
+	right: 2.5em;
+	outline: none;
+	background-color: transparent;
+	border: 0;
+	text-align: right;
+	width: 14em;
+	height: 32px;
+	padding-bottom: 0%;
+}
+
+select {
+	outline: none;
+	background-color: transparent;
+}
+
+
+.button input[type="button"] {
+	background-color: orange;
+	border-style: none;
+	padding: 1em 1.5em;
+	margin-right: 1em;
+	margin-top: 1em;
+	border-radius: 25px 25px 25px 25px;
+}
+
+#extended_profile {
+	position: absolute;
+	background-color: aquamarine;
+	width: 30em;
+	height: 32em;
+	padding: 2em;
+	margin: 1em;
+	top: 0;
+	left: 30em;
+	border-radius: 25px 25px 25px 25px;
+	line-height: 2.5em;
+}
+
+#extended_profile label {
+	font-weight: bold;
+	font-size: large;
+}
+
+#extended_profile input, #extended_profile select {
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	right: 3em;
+	outline: none;
+	width: 16em;
+	height: 2.5em;
+}
+
+#payment_method {
+	padding-left: 8em;
+	
 }
